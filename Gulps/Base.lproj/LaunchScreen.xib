@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E11f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
@@ -18,25 +18,12 @@
                     </constraints>
                     <items/>
                 </tabBar>
-                <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4e-1e-BSW">
-                    <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="64" id="TJ1-2U-4hG"/>
-                    </constraints>
-                    <color key="barTintColor" red="0.21960784310000001" green="0.49019607840000001" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
-                    <items>
-                        <navigationItem id="xsM-90-qGn"/>
-                    </items>
-                </navigationBar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="U4e-1e-BSW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0UW-vN-Bvo"/>
-                <constraint firstAttribute="trailing" secondItem="U4e-1e-BSW" secondAttribute="trailing" id="Ftu-96-c0M"/>
                 <constraint firstItem="YqG-fM-mZ4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="V05-tV-wLM"/>
                 <constraint firstAttribute="bottom" secondItem="YqG-fM-mZ4" secondAttribute="bottom" id="Xk8-Td-58y"/>
                 <constraint firstAttribute="trailing" secondItem="YqG-fM-mZ4" secondAttribute="trailing" id="q5s-j0-gbN"/>
-                <constraint firstItem="U4e-1e-BSW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="w1h-0C-b1p"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
