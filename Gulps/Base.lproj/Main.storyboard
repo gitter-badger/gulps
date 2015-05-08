@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7703" systemVersion="14E11f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E11f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -12,7 +12,7 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--Drink View Controller-->
+        <!--Drink!-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="DrinkViewController" customModule="Gulps" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,18 +21,18 @@
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mQX-uO-zkr" customClass="DPMeterView">
-                                <rect key="frame" x="50" y="20" width="220" height="220"/>
+                                <rect key="frame" x="50" y="40" width="220" height="220"/>
                                 <color key="backgroundColor" white="0.96052631578947367" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mQX-uO-zkr" secondAttribute="height" multiplier="1:1" id="KfC-cY-eVr"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEa-Xq-QB6" customClass="UICountingLabel">
-                                <rect key="frame" x="16" y="270" width="288" height="42"/>
+                                <rect key="frame" x="16" y="290" width="288" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="BaT-Nj-R8l"/>
                                 </constraints>
@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSl-zs-C7Z" userLabel="Small Button">
-                                <rect key="frame" x="125" y="355" width="70" height="70"/>
+                                <rect key="frame" x="125" y="419" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.21960784310000001" green="0.49019607840000001" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="3RS-1m-Fjb"/>
@@ -60,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5a-2l-qvB" userLabel="Large Button">
-                                <rect key="frame" x="125" y="355" width="70" height="70"/>
+                                <rect key="frame" x="125" y="419" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.21960784310000001" green="0.49019607840000001" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="Njd-jj-cNp"/>
@@ -79,7 +79,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW6-sm-t8g" userLabel="Add Button">
-                                <rect key="frame" x="125" y="355" width="70" height="70"/>
+                                <rect key="frame" x="125" y="419" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.2196078431372549" green="0.49019607843137253" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="Yl3-mS-wuG"/>
@@ -99,7 +99,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvx-n6-xp2">
-                                <rect key="frame" x="288" y="8" width="24" height="24"/>
+                                <rect key="frame" x="288" y="28" width="24" height="24"/>
                                 <color key="backgroundColor" red="0.90909090909090906" green="0.90909090909090906" blue="0.90909090909090906" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="minus-icon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -137,6 +137,7 @@
                             <constraint firstItem="fW6-sm-t8g" firstAttribute="centerY" secondItem="v5a-2l-qvB" secondAttribute="centerY" id="zwb-N5-8xQ"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Drink!" image="drink-icon" id="uCB-Gd-16g"/>
                     <navigationItem key="navigationItem" id="Mv9-vs-a2D"/>
                     <connections>
                         <outlet property="addButton" destination="fW6-sm-t8g" id="ikl-2M-eYC"/>
@@ -166,36 +167,16 @@
                         <color key="selectedImageTintColor" red="0.21960784310000001" green="0.49019607840000001" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Uem-aS-fTj" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="WfU-rs-EHU" kind="relationship" relationship="viewControllers" id="0G0-ED-vTy"/>
-                        <segue destination="4GP-uQ-whB" kind="relationship" relationship="viewControllers" id="jUg-Cm-Mb9"/>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="JUz-B4-1Ku"/>
+                        <segue destination="BxV-3X-jF2" kind="relationship" relationship="viewControllers" id="RhJ-Dy-MFh"/>
+                        <segue destination="t9K-A9-XHF" kind="relationship" relationship="viewControllers" id="h9t-FW-z21"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-34" y="0.0"/>
         </scene>
-        <!--Drink-->
-        <scene sceneID="yhS-QJ-Xyb">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uem-aS-fTj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Drink" image="drink-icon" id="acW-dT-cKf"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="U4a-LJ-b69">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.21960784310000001" green="0.49019607840000001" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="vJp-74-cJo"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6F6-ZI-off" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="400" y="-656"/>
-        </scene>
-        <!--Calendar View Controller-->
+        <!--My progress-->
         <scene sceneID="X3R-mt-gca">
             <objects>
                 <viewController id="BxV-3X-jF2" customClass="CalendarViewController" customModule="Gulps" customModuleProvider="target" sceneMemberID="viewController">
@@ -204,25 +185,32 @@
                         <viewControllerLayoutGuide type="bottom" id="Ju8-He-qx5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qyp-gc-0kQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhZ-o2-8r6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="20"/>
+                                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="bBK-yg-PnC"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6kF-sJ-gnc" customClass="JTCalendarMenuView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="30"/>
                                 <color key="backgroundColor" red="0.96687578914141414" green="0.96687578914141414" blue="0.96687578914141414" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="u4k-S9-CBs"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gz-XS-2c7" customClass="JTCalendarContentView">
-                                <rect key="frame" x="0.0" y="30" width="320" height="300"/>
+                                <rect key="frame" x="0.0" y="50" width="320" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="38h-4O-5tL"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nja-Uo-jJw">
-                                <rect key="frame" x="16" y="338" width="288" height="35"/>
+                                <rect key="frame" x="16" y="358" width="288" height="35"/>
                                 <fontDescription key="fontDescription" name="KaushanScript-Regular" family="Kaushan Script" pointSize="24"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.49019607840000001" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -233,15 +221,19 @@
                             <constraint firstItem="Nja-Uo-jJw" firstAttribute="leading" secondItem="qyp-gc-0kQ" secondAttribute="leadingMargin" id="3cW-EI-RHb"/>
                             <constraint firstAttribute="trailing" secondItem="6kF-sJ-gnc" secondAttribute="trailing" id="48A-Xp-gJd"/>
                             <constraint firstItem="3gz-XS-2c7" firstAttribute="top" secondItem="6kF-sJ-gnc" secondAttribute="bottom" id="Nfh-yh-JXo"/>
+                            <constraint firstItem="AhZ-o2-8r6" firstAttribute="leading" secondItem="qyp-gc-0kQ" secondAttribute="leading" id="PiR-U9-Xcx"/>
+                            <constraint firstItem="AhZ-o2-8r6" firstAttribute="top" secondItem="qyp-gc-0kQ" secondAttribute="top" id="Slf-JC-8F8"/>
                             <constraint firstItem="Nja-Uo-jJw" firstAttribute="trailing" secondItem="qyp-gc-0kQ" secondAttribute="trailingMargin" id="Yda-cw-XgW"/>
                             <constraint firstAttribute="trailing" secondItem="3gz-XS-2c7" secondAttribute="trailing" id="cxL-YF-gS5"/>
                             <constraint firstItem="Nja-Uo-jJw" firstAttribute="top" secondItem="3gz-XS-2c7" secondAttribute="bottom" constant="8" id="iD4-YK-7sY"/>
                             <constraint firstItem="3gz-XS-2c7" firstAttribute="leading" secondItem="qyp-gc-0kQ" secondAttribute="leading" id="ogi-43-EGf"/>
                             <constraint firstItem="6kF-sJ-gnc" firstAttribute="top" secondItem="7Gy-oT-4T2" secondAttribute="bottom" id="qPj-vX-v3s"/>
+                            <constraint firstAttribute="trailing" secondItem="AhZ-o2-8r6" secondAttribute="trailing" id="w5g-b5-Pce"/>
                             <constraint firstAttribute="centerX" secondItem="Nja-Uo-jJw" secondAttribute="centerX" id="we6-Gv-tIF"/>
                             <constraint firstItem="6kF-sJ-gnc" firstAttribute="leading" secondItem="qyp-gc-0kQ" secondAttribute="leading" id="yjb-Yz-TNd"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="My progress" image="calendar-icon" id="FHG-my-BKS"/>
                     <navigationItem key="navigationItem" id="Ico-aI-BpK"/>
                     <connections>
                         <outlet property="calendarContent" destination="3gz-XS-2c7" id="ICO-Uh-WtF"/>
@@ -253,32 +245,12 @@
             </objects>
             <point key="canvasLocation" x="833" y="0.0"/>
         </scene>
-        <!--My progress-->
-        <scene sceneID="Yb4-kZ-eAj">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WfU-rs-EHU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My progress" image="calendar-icon" id="1AV-yg-enX"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Oty-Lr-Na6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.2196078431372549" green="0.49019607843137253" blue="0.81176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BxV-3X-jF2" kind="relationship" relationship="rootViewController" id="M5i-7O-o3L"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6iZ-BW-ALn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="400" y="0.0"/>
-        </scene>
-        <!--Settings View Controller-->
+        <!--Settings-->
         <scene sceneID="f6s-sH-ozk">
             <objects>
                 <tableViewController id="t9K-A9-XHF" customClass="SettingsViewController" customModule="Gulps" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="LmZ-Eo-HR4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
@@ -531,6 +503,7 @@
                             <outlet property="delegate" destination="t9K-A9-XHF" id="HEv-Cf-6K4"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings-icon" id="tbP-Cc-LNb"/>
                     <navigationItem key="navigationItem" id="yM9-kq-UP2"/>
                     <connections>
                         <outlet property="dailyGoalText" destination="Heo-vz-8M3" id="lHN-ai-OMb"/>
@@ -549,25 +522,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gao-yG-C7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="833" y="718"/>
-        </scene>
-        <!--Preferences-->
-        <scene sceneID="N6A-EL-ShQ">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4GP-uQ-whB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Preferences" image="settings-icon" id="BBe-Kb-DPg"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="zxx-GC-h7k">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="t9K-A9-XHF" kind="relationship" relationship="rootViewController" id="yki-Jg-Nim"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QMS-ui-HT0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="400" y="718"/>
         </scene>
     </scenes>
     <resources>

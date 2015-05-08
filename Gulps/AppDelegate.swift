@@ -17,14 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UITabBar.appearance().tintColor = .mainColor()
 
-        let font = UIFont(name: "KaushanScript-Regular", size: 22)
-        if let font = font {
-            UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: UIColor.whiteColor()]
-        }
-
-        UINavigationBar.appearance().barTintColor = .mainColor()
-        UINavigationBar.appearance().tintColor = .whiteColor()
-
         Settings.registerDefaults()
 
         let userDefaults = NSUserDefaults.groupUserDefaults()
